@@ -1,5 +1,13 @@
-# Question1
+# Question 1
 
-Finish the greeter component so that it returns a div element with text "Hello {user}" where user is a prop passed to the component.
+Finish The Tootip component using React portals. Clicking any button on the page should display the buttons's text content inside the Tooltip component. The Tooltip component should render inside the element with the tooltip id.
 
-For example if user prop has values "Admin", the method should return "Hello Admin".
+For example, if App component is rendered like 
+
+![CodeImage](code.png)
+
+And button with id button2 is clickes, div with id tooltip should container "Second Button".
+
+After the button click, the page should look like:
+
+![exampleResult](example.png)
